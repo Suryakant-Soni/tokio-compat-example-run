@@ -1,0 +1,13 @@
+[package]
+name = "my-compat-tokio"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1.43.0", features = ["full"] }
+futures = "0.3"
+futures-util = "0.3"
+pin-project-lite = "0.2"
+tempfile = "3.16.0"
+tokio-util = { version = "0.7.13", features = ["full"] }
+rand = "0.9.0"
